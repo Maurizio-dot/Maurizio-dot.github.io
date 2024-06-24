@@ -38,4 +38,55 @@ Unordered
   - Marker character change forces new list start:
     * Ac tristique libero volutpat at
     * Facilitis in pretium nisl aliquet
-    * Nulla volutpat aliquam velit   
+    * Nulla volutpat aliquam velit
++ Very easy!
+
+Ordered
+
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+
+
+## Code
+
+Inline `code` 
+
+Intended code
+
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
+Block code "fences"
+
+```
+Sample text here...
+```
+
+Syntax highlighting 
+
+``` js
+var foo = function (bar) {
+  return bar++;
+};
+
+console.log{foo5));
+```
+
+
+## Links
+[link text](http://dev.nodeca.com)
+
+[link with title](http://nodeca.github.io/pica/demo/ "title text!")
+
+## Images
+
+![Minion](https://octodex.github.com/images/minion.pgn)
+
+## The End!
+
+
+   
+
