@@ -2,7 +2,7 @@
 ## Project and group presentation 
 Our project involves the creation of new RDF triples for "*Il Cenacolo di Andrea del Sarto, Ultima Cena*". The goal is to enrich the ArCo knowledge graph, by adding detailed information about this artwork. 
 
-![**_Cenacolo_**](https://it.wikipedia.org/wiki/File:Andrea_del_Sarto_-_The_Last_Supper_-_WGA00389.jpg)
+![Cenacolo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Andrea_del_Sarto_-_The_Last_Supper_-_WGA00389.jpg/1200px-Andrea_del_Sarto_-_The_Last_Supper_-_WGA00389.jpg)
 
 **Members**:
 
