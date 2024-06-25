@@ -11,7 +11,7 @@ Our project involves the creation of new RDF triples for "Il Cenacolo di Andrea 
 ## Methodology
 Our approach is based on the following methodology:
 
-+ **ArCo Knowledge Graph** to identify and explore the theme. This step involved examining existing data and determining areas where additional information could enhance the knowledge graph.
++ **[ArCo Knowledge Graph](http://wit.istc.cnr.it/arco/?lang=en)** to identify and explore the theme. This step involved examining existing data and determining areas where additional information could enhance the knowledge graph.
 + **SPARQL** to write specific queries to extract relevant information and ensure that our additions would be accurately integrated with the existing data.
 + **Large Language Models (LLMs)**, specifically **ChatGPT** and **Gemini**, to research the topic, draft SPARQL queries and retrieve information as a question-answering tool
 To communicate effectively with the LLMs, we applied four prompting techniques:
