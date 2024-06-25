@@ -13,7 +13,7 @@ Our approach is based on the following methodology:
 
 + **[ArCo Knowledge Graph](http://wit.istc.cnr.it/arco/?lang=en)** to identify and explore the theme. This step involved examining existing data and determining areas where additional information could enhance the knowledge graph.
 + **SPARQL** to write specific queries to extract relevant information and ensure that our additions would be accurately integrated with the existing data.
-+ **Large Language Models (LLMs)**, specifically **ChatGPT** and **Gemini**, to research the topic, draft SPARQL queries and retrieve information as a question-answering tool
++ **Large Language Models (LLMs)**, specifically **ChatGPT** and **Gemini**, to research the topic, draft SPARQL queries and retrieve information as a question-answering tool.
 To communicate effectively with the LLMs, we applied four prompting techniques:
     - **Zero-Shot**: Directly asking the LLMs to generate content without providing examples;
     - **Zero-Shot-CoT (Chain-of-Thought)**: Encouraging the LLMs to generate a logical sequence of thoughts or steps, enhancing the reasoning process;
