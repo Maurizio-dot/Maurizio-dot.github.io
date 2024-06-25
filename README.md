@@ -1,5 +1,12 @@
-# h1 Heading
-## h2 Heading
+# ITS project
+## Project and group presentation 
+Our project involves the creation of new RDF triples for "Il Cenacolo di Andrea del Sarto, Ultima Cena". The goal is to enrich the ArCo knowledge graph, by adding detailed information about this artwork. 
+
+**Members**:
++ Maurizio Pomarico
++ Maria Eleonora Gimelli
+
+
 ### h3 Heading
 #### h4 Heading
 ##### h5 Heading
