@@ -258,9 +258,9 @@ The third and final phase of the project involves creating triples to link to th
 
 #### Triple 2
 ***A-cd:hasSubject***
-+ **Subject**:http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_
-+ **Predicate**: hasSubject (https://w3id.org/arco/ontology/context-description/hasSubject)
-+ **Object (Ultima Cena)**: https://w3id.org/arco/resource/Subject/fff38876918a8a316e826d2ccc81f537
++ **Subject**:[http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_)](http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_)
++ **Predicate**: hasSubject [https://w3id.org/arco/ontology/context-description/hasSubject](https://w3id.org/arco/ontology/context-description/hasSubject)
++ **Object (Ultima Cena)**: [https://w3id.org/arco/resource/Subject/fff38876918a8a316e826d2ccc81f537](https://w3id.org/arco/resource/Subject/fff38876918a8a316e826d2ccc81f537)
 
 #### Triple 3
 ***A-cd:hasTitle***
