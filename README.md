@@ -251,10 +251,22 @@ FILTER(?label = "pittura a fresco")
 The third and final phase of the project involves creating triples to link to the entity "Il Cenacolo di Andrea del Sarto, Ultima Cena." We created new sets of triples by linking our [subject](https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html) to its respective objects using adequate predicates: 
 
 #### Triple 1
-***a-cd:hasAuthor***
-subject: [](http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_)
-predicate: hasAuthor
-Object (Andrea del Sarto): [](https://w3id.org/arco/resource/Agent/11c57796fc5920fdba4b92fd459c0200)
+***A-cd:hasAuthor***
++ **Subject**: http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_
++ **Predicate**: hasAuthor
++ **Object (Andrea del Sarto)**: https://w3id.org/arco/resource/Agent/11c57796fc5920fdba4b92fd459c0200
+
+#### Triple 2
+***A-cd:hasSubject***
++ **Subject**:http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_
++ **Predicate**: hasSubject (https://w3id.org/arco/ontology/context-description/hasSubject)
++ **Object (Ultima Cena)**: https://w3id.org/arco/resource/Subject/fff38876918a8a316e826d2ccc81f537
+
+#### Triple 3
+***A-cd:hasTitle***
++ **Subject**: http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_ 
++ **Predicate**: a-cd:hasTitle (https://w3id.org/arco/ontology/context-description/Title) 
++ **Object (Il Cenacolo)**: https://w3id.org/arco/resource/Title/0300179928-il-cenacolo
 
 
 ###### h6 Heading
