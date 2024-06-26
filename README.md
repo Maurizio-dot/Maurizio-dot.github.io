@@ -274,6 +274,11 @@ The third and final phase of the project involves creating triples to link to th
 + **Predicate**: a-loc:hasCulturalPropertyAddress (a-loc:hasCulturalPropertyAddress)
 + **Object (Toscana, FI, Firenze)**: https://dati.beniculturali.it/lodview-arco/resource/Address/4287e9f9192e011971297d4609f2f41c.html 
 
+#### Triple 5
+***A-loc:hasCulturalInstituteOrSite***
++ **Subject**: http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_
++ **Predicate**: a-loc:hasCulturalInstituteOrSite (https://w3id.org/arco/ontology/location/hasCulturalInstituteOrSite) 
++ **Object (Museo del Cenacolo di Andrea del Sarto)**: https://w3id.org/arco/resource/CulturalInstituteOrSite/610717aa4ebd312c305eb06dcc4d740a
 
 ###### h6 Heading
 
