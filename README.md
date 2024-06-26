@@ -123,6 +123,10 @@ From this list, we identified one painting that did not already have a significa
 
 ### 2. Identifying missing data properties
 The second phase of our project involved searching for the IRIs (Internationalized Resource Identifiers) of the missing properties associated with the selected painting.
+In order to enrich the artwork with relevant triples, we employed Gemini using the Zero-Shot CoT technique to provide us with all the necessary information for its description:
+
+<img width="456" alt="Immagine 2024-06-26 141056" src="https://github.com/Maurizio-dot/Maurizio-dot.github.io/assets/173699843/704f68f8-a4c6-46a5-a651-52fcf96d34aa"> 
+
 
 ##### h5 Heading
 ###### h6 Heading
