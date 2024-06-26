@@ -99,7 +99,10 @@ WHERE {
 }
 ORDER BY ?date
 ```
-
+We made further modifications to the initial query:
+1. Modified `SELECT ?author ?label ?date` to `SELECT DISTINCT ?paintings ?label` to eliminate duplicates and include all paintings with the date, if present.
+2. Removed `ORDER BY ?date` as it was irrelevant in this context, and added `LIMIT 20` to narrow down the results:
+   
 #### h4 Heading
 ##### h5 Heading
 ###### h6 Heading
