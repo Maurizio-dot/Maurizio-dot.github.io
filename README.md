@@ -252,37 +252,37 @@ The third and final phase of the project involves creating triples to link to th
 
 #### Triple 1
 ***A-cd:hasAuthor***
-+ **Subject**: [http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_](http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_)
++ **Subject**: [https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html](https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html)
 + **Predicate**: hasAuthor
 + **Object (Andrea del Sarto)**: [https://w3id.org/arco/resource/Agent/11c57796fc5920fdba4b92fd459c0200](https://w3id.org/arco/resource/Agent/11c57796fc5920fdba4b92fd459c0200)
 
 #### Triple 2
 ***A-cd:hasSubject***
-+ **Subject**: [http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_](http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_)
++ **Subject**: [https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html](https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html)
 + **Predicate**: hasSubject [https://w3id.org/arco/ontology/context-description/hasSubject](https://w3id.org/arco/ontology/context-description/hasSubject)
 + **Object (Ultima Cena)**: [https://w3id.org/arco/resource/Subject/fff38876918a8a316e826d2ccc81f537](https://w3id.org/arco/resource/Subject/fff38876918a8a316e826d2ccc81f537)
 
 #### Triple 3
 ***A-cd:hasTitle***
-+ **Subject**: [http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_](http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_) 
++ **Subject**: [https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html](https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html) 
 + **Predicate**: a-cd:hasTitle [https://w3id.org/arco/ontology/context-description/Title](https://w3id.org/arco/ontology/context-description/Title) 
 + **Object (Il Cenacolo)**: [https://w3id.org/arco/resource/Title/0300179928-il-cenacolo](https://w3id.org/arco/resource/Title/0300179928-il-cenacolo)
 
 #### Triple 4
 ***A-loc:hasCulturalPropertyAddress***
-+ **Subject**: [http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_](http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_)
++ **Subject**: [https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html](https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html)
 + **Predicate**: a-loc:hasCulturalPropertyAddress ([a-loc:hasCulturalPropertyAddress](a-loc:hasCulturalPropertyAddress))
 + **Object (Toscana, FI, Firenze)**: [https://dati.beniculturali.it/lodview-arco/resource/Address/4287e9f9192e011971297d4609f2f41c.html](https://dati.beniculturali.it/lodview-arco/resource/Address/4287e9f9192e011971297d4609f2f41c.html) 
 
 #### Triple 5
 ***A-loc:hasCulturalInstituteOrSite***
-+ **Subject**: [http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_](http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_)
++ **Subject**: [https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html](https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html)
 + **Predicate**: a-loc:hasCulturalInstituteOrSite ([https://w3id.org/arco/ontology/location/hasCulturalInstituteOrSite](https://w3id.org/arco/ontology/location/hasCulturalInstituteOrSite)) 
 + **Object (Museo del Cenacolo di Andrea del Sarto)**: [https://w3id.org/arco/resource/CulturalInstituteOrSite/610717aa4ebd312c305eb06dcc4d740a](https://w3id.org/arco/resource/CulturalInstituteOrSite/610717aa4ebd312c305eb06dcc4d740a)
 
 #### Triple 6
 ***A-dd:hasMaterialorTechnique***
-+ **Subject**: [http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_](http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_) 
++ **Subject**: [https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html](https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html) 
 + **Predicate**: hasMaterial
 + **Object (intonaco / pittura a fresco)**: [https://w3id.org/arco/resource/TechnicalCharacteristic/intonaco-pittura-a-fresco](https://w3id.org/arco/resource/TechnicalCharacteristic/intonaco-pittura-a-fresco) 
 
