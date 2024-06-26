@@ -83,7 +83,7 @@ WHERE {
 ORDER BY ?creationDate
 ```
 
-Since `?creationDate` does not exist in ArCo, we asked ChatGPT to modify the query by replacing it with `?Date`."
+Since `?creationDate` does not exist in ArCo, we asked ChatGPT to modify the query by replacing it with `?Date`.
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
