@@ -251,6 +251,10 @@ FILTER(?label = "pittura a fresco")
 The third and final phase of the project involves creating triples to link to the entity "Il Cenacolo di Andrea del Sarto, Ultima Cena." We created new sets of triples by linking our [subject](https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html) to its respective objects using adequate predicates: 
 
 #### Triple 1
+***a-cd:hasAuthor***
+subject: [](http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_)
+predicate: hasAuthor
+Object (Andrea del Sarto): [](https://w3id.org/arco/resource/Agent/11c57796fc5920fdba4b92fd459c0200)
 
 
 ###### h6 Heading
