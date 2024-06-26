@@ -202,7 +202,7 @@ Only for "affresco" we were unable to identify its corresponding property ("Type
 
 <img width="482" alt="lol" src="https://github.com/Maurizio-dot/Maurizio-dot.github.io/assets/173699843/32cc0882-c82d-4c82-931a-142704bfef93">
 
-Searching for "type" on ArCo in the Denotative Description section, we identified "hasCulturalPropertyType" as the only plausible property. However, when we queried to find "affresco" as a cultural property type, we did not find this match. Instead, we found "affresco" listed only as part of MaterialOrTechnique along with "intonaco":
+The problem is that the property "hasType" does not exist in ArCo's Denotative Description. The closest property we found is "hasCulturalPropertyType." Therefore, we revised the query, replacing "hasType" with "hasCulturalPropertyType":
 
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -215,6 +215,8 @@ WHERE {
 FILTER(?label = "affresco")
 }
 ```
+[Results](
+
 In Gemini, the term "affresco" was used to describe both the painting technique and the material used to execute it. However, in ArCo, these aspects are grouped together under a single property, namely: a-dd:hasMaterialorTechnique.
 
 ##### h5 Heading
