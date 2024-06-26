@@ -128,7 +128,7 @@ In order to enrich the artwork with relevant triples, we employed Gemini using t
 <img width="456" alt="Immagine 2024-06-26 141056" src="https://github.com/Maurizio-dot/Maurizio-dot.github.io/assets/173699843/704f68f8-a4c6-46a5-a651-52fcf96d34aa"> 
 
 For each of these properties (author, subjects, type of artwork, material and technique, and location), we identified their respective IRIs using the following queries:
-+ For **a-cd:hasAuthor**:
++ For **author**:
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
