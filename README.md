@@ -100,8 +100,9 @@ WHERE {
 ORDER BY ?date
 ```
 We made further modifications to the initial query:
-1. Modified `SELECT ?author ?label ?date` to `SELECT DISTINCT ?paintings ?label` to eliminate duplicates and include all paintings with the date, if present.
-2. Removed `ORDER BY ?date` as it was irrelevant in this context, and added `LIMIT 20` to narrow down the results:
+1. Modified `SELECT ?author ?label ?date` to `SELECT DISTINCT ?item ?label` to eliminate duplicates and include all paintings with the date, if present;
+2. UNION to merge results from two patterns: one related to works by "Andrea del Sarto" and another related to works with "Cenacolo" in their labels;
+3. Removed `ORDER BY ?date` as it was irrelevant in this context, and added `LIMIT 20` to narrow down the results.
 
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
