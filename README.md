@@ -264,27 +264,27 @@ The third and final phase of the project involves creating triples to link to th
 
 #### Triple 3
 ***A-cd:hasTitle***
-+ **Subject**: http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_ 
-+ **Predicate**: a-cd:hasTitle (https://w3id.org/arco/ontology/context-description/Title) 
-+ **Object (Il Cenacolo)**: https://w3id.org/arco/resource/Title/0300179928-il-cenacolo
++ **Subject**: [http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_](http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_) 
++ **Predicate**: a-cd:hasTitle [https://w3id.org/arco/ontology/context-description/Title](https://w3id.org/arco/ontology/context-description/Title) 
++ **Object (Il Cenacolo)**: [https://w3id.org/arco/resource/Title/0300179928-il-cenacolo](https://w3id.org/arco/resource/Title/0300179928-il-cenacolo)
 
 #### Triple 4
 ***A-loc:hasCulturalPropertyAddress***
-+ **Subject**: http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_
-+ **Predicate**: a-loc:hasCulturalPropertyAddress (a-loc:hasCulturalPropertyAddress)
-+ **Object (Toscana, FI, Firenze)**: https://dati.beniculturali.it/lodview-arco/resource/Address/4287e9f9192e011971297d4609f2f41c.html 
++ **Subject**: [http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_](http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_)
++ **Predicate**: a-loc:hasCulturalPropertyAddress ([a-loc:hasCulturalPropertyAddress](a-loc:hasCulturalPropertyAddress))
++ **Object (Toscana, FI, Firenze)**: [https://dati.beniculturali.it/lodview-arco/resource/Address/4287e9f9192e011971297d4609f2f41c.html](https://dati.beniculturali.it/lodview-arco/resource/Address/4287e9f9192e011971297d4609f2f41c.html) 
 
 #### Triple 5
 ***A-loc:hasCulturalInstituteOrSite***
-+ **Subject**: http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_
-+ **Predicate**: a-loc:hasCulturalInstituteOrSite (https://w3id.org/arco/ontology/location/hasCulturalInstituteOrSite) 
-+ **Object (Museo del Cenacolo di Andrea del Sarto)**: https://w3id.org/arco/resource/CulturalInstituteOrSite/610717aa4ebd312c305eb06dcc4d740a
++ **Subject**: [http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_](http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_)
++ **Predicate**: a-loc:hasCulturalInstituteOrSite ([https://w3id.org/arco/ontology/location/hasCulturalInstituteOrSite](https://w3id.org/arco/ontology/location/hasCulturalInstituteOrSite)) 
++ **Object (Museo del Cenacolo di Andrea del Sarto)**: [https://w3id.org/arco/resource/CulturalInstituteOrSite/610717aa4ebd312c305eb06dcc4d740a](https://w3id.org/arco/resource/CulturalInstituteOrSite/610717aa4ebd312c305eb06dcc4d740a)
 
 #### Triple 6
 ***A-dd:hasMaterialorTechnique***
-+ **Subject**: http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_
++ **Subject**: [http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_](http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_) 
 + **Predicate**: hasMaterial
-+ **Object (intonaco / pittura a fresco)**: https://w3id.org/arco/resource/TechnicalCharacteristic/intonaco-pittura-a-fresco
++ **Object (intonaco / pittura a fresco)**: [https://w3id.org/arco/resource/TechnicalCharacteristic/intonaco-pittura-a-fresco](https://w3id.org/arco/resource/TechnicalCharacteristic/intonaco-pittura-a-fresco) 
 
 
 ###### h6 Heading
