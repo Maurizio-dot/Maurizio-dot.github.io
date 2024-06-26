@@ -26,7 +26,7 @@ To communicate effectively with the LLMs, we applied four prompting techniques:
 ## Project phases
 ### 1. Topic identification 
 In the initial phase of our project, our primary objectives were to identify a suitable topic and verify the availability of related data within the ArCo Knowledge Graph.
-We used the Zero-Shot technique asking ChatGPT to generate a list of lesser-known painters in Italy. Our hypothesis was that ArCo might have fewer entries concerning works by "minor" artists compared to well-known figures.
+We used the Zero-Shot technique asking ChatGPT to generate a list of lesser-known painters based in Florence. Our hypothesis was that ArCo might have fewer entries concerning works by "minor" artists compared to well-known figures.
 
 immagine 
 
