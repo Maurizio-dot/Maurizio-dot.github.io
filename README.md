@@ -127,6 +127,20 @@ In order to enrich the artwork with relevant triples, we employed Gemini using t
 
 <img width="456" alt="Immagine 2024-06-26 141056" src="https://github.com/Maurizio-dot/Maurizio-dot.github.io/assets/173699843/704f68f8-a4c6-46a5-a651-52fcf96d34aa"> 
 
+For each of these properties (author, subjects, type of artwork, material and technique, and location), we identified their respective IRIs using the following queries:
++ For **a-cd:hasAuthor**:
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX arco: <https://w3id.org/arco/ontology/arco/> 
+ SELECT DISTINCT  
+?hasAuthor ?label  
+WHERE {  
+?hasAuthor rdfs:label ?label  
+FILTER(?label = "Andrea Del Sarto") 
+}
+```
+[Results](https://dati.cultura.gov.it/sparql?default-graph-uri=&query=PREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E+%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+%0D%0APREFIX+arco%3A+%3Chttps%3A%2F%2Fw3id.org%2Farco%2Fontology%2Farco%2F%3E+%0D%0A+%0D%0ASELECT+DISTINCT++%0D%0A%3FhasAuthor+%3Flabel++%0D%0AWHERE+%7B++%0D%0A%0D%0A%3FhasAuthor+rdfs%3Alabel+%3Flabel++%0D%0AFILTER%28%3Flabel+%3D+%22Andrea+Del+Sarto%22%29+%0D%0A%7D%0D%0A%0D%0A%0D%0A%0D%0A&format=text%2Fhtml&timeout=0&signal_void=on).
 
 ##### h5 Heading
 ###### h6 Heading
