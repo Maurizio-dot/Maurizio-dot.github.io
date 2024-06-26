@@ -83,6 +83,7 @@ WHERE {
 ORDER BY ?creationDate
 ```
 
+Since *?creationDate* does not exist in ArCo, we asked ChatGPT to modify the query by replacing it with *?Date*."
  
 
 
