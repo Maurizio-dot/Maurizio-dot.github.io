@@ -202,7 +202,9 @@ Only for "affresco" we were unable to identify its corresponding property ("Type
 
 <img width="482" alt="lol" src="https://github.com/Maurizio-dot/Maurizio-dot.github.io/assets/173699843/32cc0882-c82d-4c82-931a-142704bfef93">
 
+x
 
+In Gemini, the term "affresco" was used to describe both the painting technique and the material used to execute it. However, in ArCo, these aspects are grouped together under a single property, namely: a-dd:hasMaterialorTechnique.
 
 ##### h5 Heading
 ###### h6 Heading
