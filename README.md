@@ -222,6 +222,22 @@ As a final check, we asked ChatGPT using the Generated Knowledge Technique to de
 
 <img width="526" alt="non ce la faccio piu" src="https://github.com/Maurizio-dot/Maurizio-dot.github.io/assets/173699843/ad298b60-d56b-458c-95ba-10ff0a837ba6"> 
 
+Therefore, to search for the IRI corresponding to the word "affresco" or "pittura a fresco", we created the following query for `a-dd:MaterialOrTechnique`:
+
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX arco: <https://w3id.org/arco/ontology/arco/>
+
+SELECT DISTINCT 
+?MaterialorTechnique ?label 
+WHERE { 
+?MaterialorTechnique rdfs:label ?label 
+FILTER(?label = "pittura a fresco")
+}
+```
+[Results](https://dati.cultura.gov.it/sparql?default-graph-uri=&query=PREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0APREFIX+arco%3A+%3Chttps%3A%2F%2Fw3id.org%2Farco%2Fontology%2Farco%2F%3E%0D%0A%0D%0ASELECT+DISTINCT+%0D%0A%3FMaterialorTechnique+%3Flabel+%0D%0AWHERE+%7B+%0D%0A%3FMaterialorTechnique+rdfs%3Alabel+%3Flabel+%0D%0AFILTER%28%3Flabel+%3D+%22pittura+a+fresco%22%29%0D%0A%7D%0D%0A%0D%0A%0D%0A&format=text%2Fhtml&timeout=0&signal_void=on).
+
 
 ##### h5 Heading
 ###### h6 Heading
