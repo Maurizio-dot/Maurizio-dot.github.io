@@ -68,7 +68,20 @@ LIMIT 100
 
 With the quantitative data in hand, we need the titles of the entities we want to enrich. Therefore, we asked ChatGPT to formulate a query to identify all paintings associated with Andrea del Sarto:
 
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX arco: <https://w3id.org/arco/ontology/arco/>
 
+SELECT ?author ?label ?creationDate
+WHERE { 
+  ?author a arco:HistoricOrArtisticProperty ;
+          rdfs:label ?label ;
+          arco:creationDate ?creationDate .
+  FILTER(REGEX(?label, "Andrea del Sarto", "i"))
+}
+ORDER BY ?creationDate
+```
 
  
 
