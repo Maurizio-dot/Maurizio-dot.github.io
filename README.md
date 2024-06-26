@@ -28,7 +28,8 @@ To communicate effectively with the LLMs, we applied four prompting techniques:
 In the initial phase of our project, our primary objectives were to identify a suitable topic and verify the availability of related data within the ArCo Knowledge Graph.
 We used the Zero-Shot technique asking ChatGPT to generate a list of lesser-known painters based in Florence. Our hypothesis was that ArCo might have fewer entries concerning works by "minor" artists compared to well-known figures.
 
-![]<img width="960" alt="Screenshot 2024-06-26 120120" src="https://github.com/Maurizio-dot/Maurizio-dot.github.io/assets/173699843/0d16a0ce-a3d3-45a6-adb8-2e1f0bef4d9a">  
+![]<img width="960" alt="Screenshot 2024-06-26 120120" src="https://github.com/Maurizio-dot/Maurizio-dot.github.io/assets/173699843/0d16a0ce-a3d3-45a6-adb8-2e1f0bef4d9a"> 
+![Cattura 1](https://github.com/Maurizio-dot/Maurizio-dot.github.io/assets/173814358/49f9353b-6b51-4258-be8f-f66aa351641d)
 
 From this list we selected Andrea del Sarto. To verify the existence of properties associated with Andrea del Sarto within ArCo, we formulated the following ASK query:
 
