@@ -102,6 +102,21 @@ ORDER BY ?date
 We made further modifications to the initial query:
 1. Modified `SELECT ?author ?label ?date` to `SELECT DISTINCT ?paintings ?label` to eliminate duplicates and include all paintings with the date, if present.
 2. Removed `ORDER BY ?date` as it was irrelevant in this context, and added `LIMIT 20` to narrow down the results:
+
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX arco: <https://w3id.org/arco/ontology/arco/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT DISTINCT ?paintings ?label
+ WHERE {
+?paintings rdfs:label ?label
+OPTIONAL { ?author dcterms:date ?date } .
+FILTER(REGEX(?label,  "Andrea del Sarto", "i"))
+}
+LIMIT 20
+```
    
 #### h4 Heading
 ##### h5 Heading
