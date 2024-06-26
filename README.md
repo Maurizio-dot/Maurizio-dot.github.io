@@ -280,6 +280,13 @@ The third and final phase of the project involves creating triples to link to th
 + **Predicate**: a-loc:hasCulturalInstituteOrSite (https://w3id.org/arco/ontology/location/hasCulturalInstituteOrSite) 
 + **Object (Museo del Cenacolo di Andrea del Sarto)**: https://w3id.org/arco/resource/CulturalInstituteOrSite/610717aa4ebd312c305eb06dcc4d740a
 
+#### Triple 6
+***A-dd:hasMaterialorTechnique***
++ **Subject**: http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_
++ **Predicate**: hasMaterial
++ **Object (intonaco / pittura a fresco)**: https://w3id.org/arco/resource/TechnicalCharacteristic/intonaco-pittura-a-fresco
+
+
 ###### h6 Heading
 
 
