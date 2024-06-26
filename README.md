@@ -252,13 +252,13 @@ The third and final phase of the project involves creating triples to link to th
 
 #### Triple 1
 ***A-cd:hasAuthor***
-+ **Subject**: http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_
++ **Subject**: [http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_](http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_)
 + **Predicate**: hasAuthor
-+ **Object (Andrea del Sarto)**: https://w3id.org/arco/resource/Agent/11c57796fc5920fdba4b92fd459c0200
++ **Object (Andrea del Sarto)**: [https://w3id.org/arco/resource/Agent/11c57796fc5920fdba4b92fd459c0200](https://w3id.org/arco/resource/Agent/11c57796fc5920fdba4b92fd459c0200)
 
 #### Triple 2
 ***A-cd:hasSubject***
-+ **Subject**:[http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_](http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_)
++ **Subject**: [http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_](http://dati.beniculturali.it/mibact/eventi/resource/CreativeWork/13596_)
 + **Predicate**: hasSubject [https://w3id.org/arco/ontology/context-description/hasSubject](https://w3id.org/arco/ontology/context-description/hasSubject)
 + **Object (Ultima Cena)**: [https://w3id.org/arco/resource/Subject/fff38876918a8a316e826d2ccc81f537](https://w3id.org/arco/resource/Subject/fff38876918a8a316e826d2ccc81f537)
 
