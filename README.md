@@ -121,7 +121,7 @@ LIMIT 20
 
 From this list, we identified one painting that did not already have a significant amount of information associated with it: [click here to visualise it](https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html). This property will serve as the starting point for the second phase of our project.
 
-## 2. Identifying missing data properties
+### 2. Identifying missing data properties
 The second phase of our project involved searching for the IRIs (Internationalized Resource Identifiers) of the missing properties associated with the selected painting.
 
 ##### h5 Heading
