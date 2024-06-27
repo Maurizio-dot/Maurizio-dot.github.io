@@ -288,7 +288,7 @@ The third and final phase of the project involves creating triples to link to th
 
 
 ## Conclusion
-In this project, we successfully enriched the ArCo Knowledge Graph with new RDF triples for Andrea del Sarto’s artwork, "Il Cenacolo di Andrea del Sarto, Ultima Cena" by employing SPARQL queries, Large Language Models, and data verification. We have also demonstrated the effectiveness of combining advanced AI techniques with semantic web technologies to improve cultural heritage datasets.
+In this project, we successfully enriched the ArCo Knowledge Graph with new RDF triples for Andrea del Sarto’s artwork, "Il Cenacolo di Andrea del Sarto, Ultima Cena" by employing SPARQL queries, Large Language Models, and data verification. We have also demonstrated the effectiveness of combining advanced AI techniques with semantic web technologies to improve cultural heritage datasets. Future developments could expand this methodology to other artworks.
 
 
 ## Horizontal rules
