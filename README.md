@@ -1,4 +1,13 @@
 # ITS project
+
+___
+
+[Methodology](https://github.com/Maurizio-dot/Maurizio-dot.github.io/edit/main/README.md#methodology)
+[Project phases](https://github.com/Maurizio-dot/Maurizio-dot.github.io/edit/main/README.md#project-phases)
+[Conclusion](https://github.com/Maurizio-dot/Maurizio-dot.github.io/edit/main/README.md#conclusion)
+
+___
+
 ## Project and group presentation 
 Our project involves the creation of new RDF triples for "*Il Cenacolo di Andrea del Sarto, Ultima Cena*". The goal is to enrich the ArCo knowledge graph, by adding detailed information about this artwork. 
 
