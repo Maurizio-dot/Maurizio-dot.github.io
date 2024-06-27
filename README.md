@@ -282,7 +282,7 @@ The third and final phase of the project involves creating triples to link to th
 
 #### Triple 6
 ***A-dd:hasMaterialorTechnique***
-+ **Subject**: [https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html](https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html) 
++ **Subject**: [subject](https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html) 
 + **Predicate**: hasMaterial
 + **Object (intonaco / pittura a fresco)**: [https://w3id.org/arco/resource/TechnicalCharacteristic/intonaco-pittura-a-fresco](https://w3id.org/arco/resource/TechnicalCharacteristic/intonaco-pittura-a-fresco) 
 
