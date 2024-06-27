@@ -287,7 +287,8 @@ The third and final phase of the project involves creating triples to link to th
 + **Object (intonaco / pittura a fresco)**: [https://w3id.org/arco/resource/TechnicalCharacteristic/intonaco-pittura-a-fresco](https://w3id.org/arco/resource/TechnicalCharacteristic/intonaco-pittura-a-fresco) 
 
 
-###### h6 Heading
+## Conclusion
+In this project, we successfully enriched the ArCo Knowledge Graph with new RDF triples for Andrea del Sarto’s artwork, "Il Cenacolo di Andrea del Sarto, Ultima Cena" by employing SPARQL queries, Large Language Models, and data verification. We have also demonstrated the effectiveness of combining advanced AI techniques with semantic web technologies to improve cultural heritage datasets.
 
 
 ## Horizontal rules
