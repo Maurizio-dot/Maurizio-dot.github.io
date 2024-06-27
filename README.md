@@ -2,9 +2,7 @@
 
 ___
 
-[Methodology](https://github.com/Maurizio-dot/Maurizio-dot.github.io/edit/main/README.md#methodology)
-[Project phases](https://github.com/Maurizio-dot/Maurizio-dot.github.io/edit/main/README.md#project-phases)
-[Conclusion](https://github.com/Maurizio-dot/Maurizio-dot.github.io/edit/main/README.md#conclusion)
+[Methodology](#heading-to-methodology)
 
 ___
 
