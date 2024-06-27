@@ -252,7 +252,7 @@ The third and final phase of the project involves creating triples to link to th
 
 #### Triple 1
 ***A-cd:hasAuthor***
-+ **Subject**: [https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html](https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html) 
++ **Subject**: [subject](https://dati.beniculturali.it/lodview/mibact/eventi/resource/CreativeWork/13596_.html)  
 + **Predicate**: hasAuthor
 + **Object (Andrea del Sarto)**: [https://w3id.org/arco/resource/Agent/11c57796fc5920fdba4b92fd459c0200](https://w3id.org/arco/resource/Agent/11c57796fc5920fdba4b92fd459c0200)
 
