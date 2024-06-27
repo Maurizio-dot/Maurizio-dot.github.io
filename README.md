@@ -2,6 +2,7 @@
 
 ___
 
+<a name="methodology">Methodology</a>  
 [Methodology](#heading-to-methodology)
 
 ___
