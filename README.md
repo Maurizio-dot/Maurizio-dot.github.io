@@ -2,8 +2,7 @@
 
 ___
 
-<a name="methodology">Methodology</a>  
-[Methodology](#heading-to-methodology)
+[Methodology](https://maurizio-dot.github.io/Maurizio-dot/) 
 
 ___
 
